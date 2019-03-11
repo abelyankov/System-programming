@@ -110,4 +110,5 @@ int init_module(void)
 void cleanup_module(void)
 {
         printk(KERN_INFO "Lab3: end.\n");
+}
 
