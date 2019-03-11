@@ -1,0 +1,1 @@
+cmd_/home/arthur/System-programming/System-programming/lab6/ex6_1.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/arthur/System-programming/System-programming/lab6/ex6_1.ko /home/arthur/System-programming/System-programming/lab6/ex6_1.o /home/arthur/System-programming/System-programming/lab6/ex6_1.mod.o ;  true
