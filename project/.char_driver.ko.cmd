@@ -1,0 +1,1 @@
+cmd_/home/arthur/KBTU/System-programming/project/char_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/arthur/KBTU/System-programming/project/char_driver.ko /home/arthur/KBTU/System-programming/project/char_driver.o /home/arthur/KBTU/System-programming/project/char_driver.mod.o ;  true
