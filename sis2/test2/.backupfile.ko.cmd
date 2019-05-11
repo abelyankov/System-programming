@@ -1,0 +1,1 @@
+cmd_/home/abelyankov/System-programming/sis2/test2/backupfile.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/abelyankov/System-programming/sis2/test2/backupfile.ko /home/abelyankov/System-programming/sis2/test2/backupfile.o /home/abelyankov/System-programming/sis2/test2/backupfile.mod.o ;  true

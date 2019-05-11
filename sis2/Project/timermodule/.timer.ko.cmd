@@ -1,0 +1,1 @@
+cmd_/home/abelyankov/System-programming/sis2/test2/timermodule/timer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/abelyankov/System-programming/sis2/test2/timermodule/timer.ko /home/abelyankov/System-programming/sis2/test2/timermodule/timer.o /home/abelyankov/System-programming/sis2/test2/timermodule/timer.mod.o ;  true
